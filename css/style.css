@@ -1,1 +1,217 @@
-.sec-1{background: url(img/s-1-bg.jpg) no-repeat;}
+html {  margin-left: 0;}
+html {    margin: 0;    padding: 0;    height: 100%;}
+body {	font-family: 'Arimo', sans-serif;	background-color: #fff;  font-size: 14px  color: #210e0c;  height: 100%;  margin: 0;  padding: 0; overflow-x: hidden !important; 
+}
+
+
+.navbar {
+  position: relative;
+  border-width: 0 0 0 !important;
+  background: #fff;
+  margin-bottom: 0;
+  z-index: 9999;
+}
+.navbar-toggle .icon-bar {
+    background: #000;
+    width: 28px;
+    height: 3px;
+}
+.navbar-toggle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav-sh-hid {
+  text-align: center;
+}
+.navbar-brand {
+  padding: 0;
+  padding-left: 10px;
+  line-height: 74px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-sh-hid {
+  margin-left: 30px;
+}
+.nav-sh-hid > li > a {
+    font-size: 16px;
+    color: #696969;
+    padding: 0;
+    margin: 0 22px;
+    padding: 30px 0 25px 0; 
+    border-bottom: 4px solid transparent;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+}
+header .nav-sh-hid > li > a.active {
+    background: transparent;
+    border-bottom: 4px solid transparent;
+    color: #696969;
+}
+.hidden-nav .nav-sh-hid > li > a.active {
+    background: transparent;
+    border-bottom: 4px solid #000;
+    color: #696969;
+}
+.nav-sh-hid > li > a:hover {
+    background: transparent;
+    border-bottom: 4px solid #696969;
+    color: #696969;
+}
+.nav-sh-hid > li > a:focus {
+    background: transparent;
+    color: #696969;
+}
+.nav-buttons > li > a {
+  min-width:180px;
+  padding: 30px 10px 12px 10px;
+  background-color: #ff8835;
+  background-repeat:no-repeat;
+  background-image:url('/img/p.png');
+  background-position:center 30px;
+  font-size: 20px;
+  color: #210e0c;
+}
+.nav-buttons > li > div {
+  text-align:center;
+  background: #ff8835;
+  color:#333;
+  font-size: 12px;
+  text-transform:uppercase;
+}
+.nav-buttons > li > a span {
+  font-weight: 700;
+}
+.nav-buttons > li > a:active, .nav-buttons > li > a:hover, .nav-buttons > li > a:focus {
+    background-color: #ff8835;
+    color: #210e0c;
+    cursor: default;
+}
+.navbar-brand img{margin-top:5px; }
+/*s-1*/
+.s-1{background: url(../img/s-1-bg.jpg) no-repeat;}
+.s-1-logo-bl {    margin-top: 205px;}
+
+
+div.s-1 {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    min-height: 1000px;
+    background: #f3f3f3;
+    background: url(../img/sec-1-bg.jpg) no-repeat;
+    background-position:center bottom;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+    overflow: hidden;
+    z-index: 10;
+}
+.sec-1-logo-bl {
+  margin-top: 205px;
+}
+.sec-1-logo {
+  height: 180px;
+  background: url(../img/sec-1-logo.png) no-repeat;
+  background-position: center bottom;
+}
+.sec-1-logo-bl h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: right;
+  padding-right: 38px;
+}
+.sec-1-logo-bl h1 {
+  font-size: 125px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 110px;
+  margin: 0;
+}
+.sec-1-logo-bl h2 {
+  float: left;
+  width: 47%;
+  font-size: 45px;
+  color: #ff8835;
+  text-transform: uppercase;
+  border-right: 1px solid #fff;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 12px;
+  text-shadow:#000 0px 0px 5px;
+}
+.sec-1-logo-bl h4 {
+  float: left;
+  width: 53%;
+  font-size: 15px;
+  color: #fff;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.sec-1-icon-bl {
+  margin-top: 90px;
+}
+.sec-1-icon-1 {
+  width: 100%;
+  height: 80px;
+  background: url(../img/sec-1-icon-1.png) no-repeat;
+  background-position: center;
+}
+.sec-1-icon-2 {
+  width: 100%;
+  height: 80px;
+  background: url(../img/sec-1-icon-2.png) no-repeat;
+  background-position: center;
+}
+.sec-1-icon-3 {
+  width: 100%;
+  height: 80px;
+  background: url(../img/sec-1-icon-3.png) no-repeat;
+  background-position: center;
+}
+.sec-1-icon-4 {
+  width: 100%;
+  height: 80px;
+  background: url(../img/sec-1-icon-4.png) no-repeat;
+  background-position: center;
+}
+.sec-1-icon-bl p {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sec-1-dark-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(40, 17, 15, 0.9);
+}
+.sec-1-form {
+  min-height: 250px;
+  padding-bottom: 30px;
+}
+.sec-1-form h2 {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*s-1*/
+
