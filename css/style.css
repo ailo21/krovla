@@ -213,5 +213,34 @@ div.s-1 {
   font-weight: 700;
 }
 
+#zvonok-1{}
+#zvonok-1 input{background-color: #ff8835; border: none;    width: 100%;    margin: 0 0 20px 0;    padding: 9px 14px;}
+#zvonok-1 button{}
+#zvonok-1 input::-webkit-input-placeholder {color:#262626;}
+#zvonok-1 input::-moz-placeholder          {color:#262626;}
+#zvonok-1 input:-moz-placeholder           {color:#262626;}
+#zvonok-1 input:-ms-input-placeholder      {color:#262626;}
+
+input[type=submit]:hover,button:hover {    background: #F53D19;}
+input[type=submit],button {
+    width: 92%;
+    height: 40px;
+    margin: 20px 4%;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;    
+    font-size: 24px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background: rgb(242, 49, 11);
+}
 /*s-1*/
 
+/*section-2*/
+.os-animation{  opacity: 0;}
+
+.os-animation.animated{    opacity: 1;}
+/*section-2*/
