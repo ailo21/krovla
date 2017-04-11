@@ -1,6 +1,7 @@
 html {  margin-left: 0;}
 html {    margin: 0;    padding: 0;    height: 100%;}
 body {	font-family: 'Arimo', sans-serif;	background-color: #fff;  font-size: 14px  color: #210e0c;  height: 100%;  margin: 0;  padding: 0; overflow-x: hidden !important; 
+color: #262626;line-height: 21px;
 }
 
 
@@ -243,4 +244,17 @@ input[type=submit],button {
 .os-animation{  opacity: 0;}
 
 .os-animation.animated{    opacity: 1;}
+
+.s-2-header{text-align: center;margin-bottom: 10px;}
+.s-2-header h2{    font-size: 45px;    color: #210e0c;font-weight:bold;     margin-top: 60px;}
+.s-2-header span{    font-size: 18px;    color: #210e0c;    text-align: center;    font-weight: 700;}
+.if_list li{list-style-type: none;}
+.if_list li{margin-bottom: 40px;font-size: 16px;}
+.if_list li:before{background-color: #f2310b;content: '';width: 9px;height: 9px;border-radius: 50%;display: inline-block;margin-right: 5px;float: left;    margin-top: 6px;}
+.if_list li span{display: block;    padding-left: 24px;}
+.if_list-left,.if_list-right{
+	margin:0 20px;
+}
+
+.start__anim{}
 /*section-2*/
