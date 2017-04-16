@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0149)https://api-maps.yandex.ru/services/inception/?lang=ru_RU&iframe_id=9447&url=%2Fmap&api_version=2.1.50&mode=release&referer_host=krovly.gleden-dom.ru -->
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title></title>
+    <script type="text/javascript">
+        var ENV = {"lang":{"lang":"ru_RU","languageCode":"ru","countryCode":"RU"},"browser":{"name":"Chrome","version":"57.0.2987","base":"Chromium","engine":"WebKit","engineVersion":"537.36","osFamily":"Windows","osVersion":"10.0","isMobile":false,"isBrowser":true,"cssPrefix":"Webkit"},"hosts":{"api":{"maps":"https://yandex.ru/maps/","statCounter":"https://yandex.ru/clck/"}},"userKey":"1492194392094"};
+        (function (browser) {
+            browser.documentMode = document.documentMode;
+            browser.isIE = (browser.name == 'MSIE' || browser.name == 'IEMobile');
+            browser.oldIE = (browser.name == 'MSIE' && browser.documentMode < 9);
+            browser.isEdge = (browser.engine == 'Edge');
+            var isPointerBrowser = browser.engine == 'Edge' ||
+                (browser.name == 'MSIE' && browser.documentMode >= 10 && browser.osVersion > 6.1) ||
+                (browser.name == 'IEMobile' && browser.engineVersion >= 6);
+            if (isPointerBrowser) {
+                browser.eventMapper = 'pointer';
+            } else if (browser.oldIE) {
+                browser.eventMapper = 'oldIE';
+            } else {
+                browser.eventMapper = 'touchMouse';
+            }
+            browser.androidBrokenBuild = browser.name == "AndroidBrowser" && browser.engineVersion == "534.30";
+
+            var pendingMessages = [],
+                onMessage = function (e) {
+                    pendingMessages.push(e.data);
+                };
+
+            browser.flushMessages = function (callback) {
+                if (browser.oldIE) {
+                    window.detachEvent('onmessage', onMessage)
+                } else {
+                    window.removeEventListener('message', onMessage, false);
+                }
+
+                for (var i = 0; i < pendingMessages.length; i++) {
+                    callback(pendingMessages[i]);
+                }
+            };
+
+            if (browser.oldIE) {
+                window.attachEvent('onmessage', onMessage)
+            } else {
+                window.addEventListener('message', onMessage, false);
+            }
+        })(ENV.browser);
+    </script>
+    <script type="text/javascript" src="./inception-1480336775329.js.Без названия"></script>
+<style type="text/css" data-ymaps="css-modules">body,html{padding:0;margin:0;background:0 0}.controller{display:table;width:100%;line-height:0}.oldie .controller{font:0/0 a}.business-card-maps-button{box-sizing:border-box;border-width:1px;border-style:solid;border-radius:3px;background-clip:padding-box;color:#000;vertical-align:middle;text-align:center;text-decoration:none;font-family:Arial,Helvetica,sans-serif;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;height:28px;padding-right:13px;padding-left:13px;display:block;width:100%;background-color:#fff;border-color:rgba(0,0,0,.2);white-space:nowrap}.business-card-maps-button-text{position:relative;border:none;text-decoration:none;white-space:nowrap;font-size:13px;line-height:26px}.business-card-maps-button:hover{border-color:rgba(0,0,0,.3)}.business-card-maps-button-icon{display:inline-block;width:18px;height:16px;vertical-align:middle;background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxMCAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik01LjI5IDguODk1TDQuMSAxNnM0LjU0LTYuMTc1IDUuNjEtOC45ODdjLjEzOC0uMzYuMTktMS4xMTcuMTktMi4wMTNMNS4yOSA4Ljg5NXoiIHN0cm9rZT0iI0M1MTQxQyIgc3Ryb2tlLXdpZHRoPSIuMSIgZmlsbD0iI0M1MTQxQyIvPjxwYXRoIGQ9Ik01IDEwQTUgNSAwIDEgMCA1IDBhNSA1IDAgMCAwIDAgMTB6bTAtM2EyIDIgMCAxIDAgMC00IDIgMiAwIDAgMCAwIDR6IiBmaWxsPSIjRTAwIi8+PC9nPjwvc3ZnPgo=) no-repeat}.oldie .business-card-maps-button-icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAABGdBTUEAALGPC/xhBQAAATlJREFUKBWFUj1Lw1AUvfdVSrDUqNDNbhnEgpvQJaD/xFVwcXCx4OCfEJzdurnUURQ3ERdBcOugSP2gUEo/TJ7npHlNJIIXbu7JPeee926ISBqfIuGXyAXqCzPFoeOTCuIIRIxq84leRI4iBQhV5MqKmF/T6Qu4GNy2ATjMiTqeSJ0JXYdactQIHHmn5MihyFpqJMSuT82fxzmxq5GqT9s71xiJnNGJSez641J5+u8yFL9WV85hKLxnC+AktxTbSXws+sPRcmXdvVM8/+Dvaibdsmfv/Zq9rdVb1lpNHOdqgOfVYKlXGr+B9FTMg6/VsNF7HBS27ptpQBFmIggPKKJRQfhtbIOEqp42d7ZuiBkLs5I9YxtvYPqpMtFjbbcjxxQcsXmA+b3Nfhf/RBYFoRq5bO7vXmeSGfoB8EJ5KkExk9MAAAAASUVORK5CYII=)}.button{position:relative;display:block;margin:0;padding:0;cursor:pointer;color:#000;border:0;border-radius:3px;outline:0;text-align:center;white-space:nowrap;font-size:12px;-webkit-tap-highlight-color:rgba(0,0,0,0);background-color:#ffdb4d}.button:hover{background-color:#ffd633}.button:active{background-color:#fc0}.button_size_small{font-size:13px;height:24px;line-height:24px}.button_size_medium{height:28px;line-height:28px}.button__text{margin:0 13px;user-select:none;-webkit-user-select:none;font-family:Arial,Helvetica,sans-serif}.gotoymaps{display:inline-block;white-space:nowrap;color:#000;cursor:pointer}.gotoymaps__icon,.gotoymaps__text{position:relative;vertical-align:bottom}.gotoymaps__icon{width:24px;z-index:1;display:inline-block;background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zLjgyNiAxQzIuMjY2IDEgMSAyLjI3OCAxIDMuODN2MTYuMzRDMSAyMS43MyAyLjI2IDIzIDMuODI2IDIzSDE2LjAzYy4zNzIgMCAuODI0LS4yNSAxLjAxOC0uNTc2bDUuNzk3LTkuNzAyYy4yMzgtLjQuMjQyLTEuMDQgMC0xLjQ0NGwtNS43OTctOS43MDJjLS4xOS0uMzE4LS42NDMtLjU3Ni0xLjAyLS41NzZIMy44Mjd6IiBzdHJva2Utb3BhY2l0eT0iLjE1IiBzdHJva2U9IiMwMDAiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMTAuMjkgMTIuODk1TDkuMSAyMHM0LjU0LTYuMTc1IDUuNjEtOC45ODdjLjEzOC0uMzYuMTktMS4xMTcuMTktMi4wMTNsLTQuNjEgMy44OTV6IiBzdHJva2U9IiNDNTE0MUMiIHN0cm9rZS13aWR0aD0iLjEiIGZpbGw9IiNDNTE0MUMiLz48cGF0aCBkPSJNMTAgMTRjMi43NiAwIDUtMi4yNCA1LTVzLTIuMjQtNS01LTUtNSAyLjI0LTUgNSAyLjI0IDUgNSA1em0wLTNjMS4xMDUgMCAyLS44OTUgMi0ycy0uODk1LTItMi0yLTIgLjg5NS0yIDIgLjg5NSAyIDIgMnoiIGZpbGw9IiNFMDAiLz48L2c+PC9zdmc+) no-repeat;height:24px}.oldie .gotoymaps__icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAgVBMVEUAAAAAAAAAAAD9/f3n5+cAAAD19fXKysqYmJhMTEwAAAAAAAAAAAD6+vr29vbn5+c5OTn////uAADzS0v94+P6wsLvGBjFFR32hYX78vPvwsXopqjrBwj67u744+Tyz9HijJDggYXcdnviYmXXYGXPP0XNNz7aEhbODxXkExThBgiV3lg9AAAAEXRSTlMAJQbtngzJcEsyHRoU4tGhLVsM2XQAAAC2SURBVCjPfZLpFoIgEEYFtTIrHUBwa997/wfsBGMMnuz+YDn3wAcDUcRzFpBGDl4mMRA2GXciTyAkWTrBYhixSJ0ASyW1lpUdzhgRtbDUdjJffUUlELsmzvggpBBSqU+L+YPQQigAJYT2+aHoAfPHWz0BMH8UfkaxZuFx7zsv/AX71+MAdCukMebaAA1H9sa0vlxEdOZECkzE8ba1vS8JcmlJMhUd+OS/D5UXE0/Ly+LnZ5j8Pm9U+R43PX+GjwAAAABJRU5ErkJggg==)}.gotoymaps__text{top:-1px;margin-left:-23px;padding-right:9px;padding-left:26px;border-radius:4px;background-color:rgba(255,255,255,.7);font:11px/22px Arial,Helvetica,sans-serif;color:#000;text-decoration:none;height:22px}.oldie .gotoymaps__text{background-color:#fff}.gotoymaps__text,.gotoymaps__text-container{display:inline-block}.gotoymaps__text-container.animate{animation:flick 300ms 1 ease-in-out}.gotoymaps__text-container>*{height:22px;line-height:22px;display:block;opacity:1;transition:opacity 300ms}.gotoymaps__text-container>.in,.gotoymaps__text-container>.out{opacity:0}@-moz-keyframes flick{0%{transform:translateY(-25px)}to{transform:translateY(0)}}@-webkit-keyframes flick{0%{transform:translateY(-25px)}to{transform:translateY(0)}}@-o-keyframes flick{0%{transform:translateY(-25px)}to{transform:translateY(0)}}@keyframes flick{0%{transform:translateY(-25px)}to{transform:translateY(0)}}
+/**/
+</style></head>
+<body><ymaps class="controller"><ymaps class="model"><ymaps><div class="gotoymaps">
+    
+        <div class="gotoymaps__icon"></div>
+        
+            <div class="gotoymaps__text"><div class="gotoymaps__text-container"><ymaps>Как добраться</ymaps></div></div>
+        
+    
+</div></ymaps></ymaps></ymaps></body></html>

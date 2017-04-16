@@ -17,6 +17,57 @@ $(document).ready(function () {
           AnimTahom(elem);
       }
     });  
+
+    //slider project
+    var ActSlidStart=$('#myCarousel').find('.item.active');
+
+    var s5_t1=$('#s5-t1');
+    var s5_t2=$('#s5-t2');
+    var s5_t3=$('#s5-t3');
+
+    s5_t1.text(ActSlidStart.attr('data-t1'));
+    s5_t2.text(ActSlidStart.attr('data-t2'));
+    s5_t3.text(ActSlidStart.attr('data-t3'));
+    
+    $('#myCarousel').on('slide.bs.carousel', function () { 
+      s5_t1.fadeOut();
+      s5_t2.fadeOut();
+      s5_t3.fadeOut();
+      
+    });
+    $('#myCarousel').on('slid.bs.carousel', function () {
+
+      var ActSlid=$('#myCarousel').find('.item.active');
+      s5_t1.text(ActSlid.attr('data-t1'));
+      s5_t2.text(ActSlid.attr('data-t2'));
+      s5_t3.text(ActSlid.attr('data-t3'));
+
+      s5_t1.fadeIn();
+      s5_t2.fadeIn();
+      s5_t3.fadeIn();
+    });
+
+
+
+    // 
+    $('.left-col').mouseover(function(){
+      $('.s-7').addClass('left-hover');
+      
+    });
+
+    $('.left-col').mouseout(function(){
+        $('.s-7').removeClass('left-hover');
+    });
+
+    $('.right-col').mouseover(function(){
+      $('.s-7').addClass('right-hover');
+      
+    });
+
+    $('.right-col').mouseout(function(){
+        $('.s-7').removeClass('right-hover');
+    });
+
     
 
 });

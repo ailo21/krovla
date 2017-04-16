@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'eartforms';
+  src: url('../font/eartforms.eot?69449270');
+  src: url('../font/eartforms.eot?69449270#iefix') format('embedded-opentype'),
+       url('../font/eartforms.woff?69449270') format('woff'),
+       url('../font/eartforms.ttf?69449270') format('truetype'),
+       url('../font/eartforms.svg?69449270#eartforms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'eartforms';
+    src: url('../font/eartforms.svg?69449270#eartforms') format('svg');
+  }
+}
+*/
+ 
+ [class^="eartforms-"]:before, [class*=" eartforms-"]:before {
+  font-family: "eartforms";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.eartforms-search:before { content: '\e816'; } /* '' */
+.eartforms-ok:before { content: '\e812'; } /* '' */
+.eartforms-plus:before { content: '\e806'; } /* '' */
+.eartforms-minus:before { content: '\e80b'; } /* '' */
+.eartforms-help-circled:before { content: '\e817'; } /* '' */
+.eartforms-bookmark-empty:before { content: '\e809'; } /* '' */
+.eartforms-download:before { content: '\e807'; } /* '' */
+.eartforms-upload:before { content: '\e804'; } /* '' */
+.eartforms-trash:before { content: '\e808'; } /* '' */
+.eartforms-folder-open:before { content: '\e80d'; } /* '' */
+.eartforms-cog-alt:before { content: '\e805'; } /* '' */
+.eartforms-wrench:before { content: '\e80e'; } /* '' */
+.eartforms-calendar:before { content: '\e811'; } /* '' */
+.eartforms-clock:before { content: '\e813'; } /* '' */
+.eartforms-left-open:before { content: '\e80c'; } /* '' */
+.eartforms-mail:before { content: '\e801'; } /* '' */
+.eartforms-angle-left:before { content: '\e81a'; } /* '' */
+.eartforms-angle-right:before { content: '\e819'; } /* '' */
+.eartforms-angle-up:before { content: '\e814'; } /* '' */
+.eartforms-angle-down:before { content: '\e815'; } /* '' */
+.eartforms-up-big:before { content: '\e80a'; } /* '' */
+.eartforms-list:before { content: '\e803'; } /* '' */
+.eartforms-puzzle:before { content: '\e810'; } /* '' */
+.eartforms-chart-bar:before { content: '\e800'; } /* '' */
+.eartforms-right:before { content: '\e81d'; } /* '' */
+.eartforms-down-bold:before { content: '\e81b'; } /* '' */
+.eartforms-up-bold:before { content: '\e81c'; } /* '' */
+.eartforms-edit:before { content: '\e802'; } /* '' */
+.eartforms-font:before { content: '\e80f'; } /* '' */
+.eartforms-right-open:before { content: '\e818'; } /* '' */
